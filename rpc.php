@@ -2,12 +2,10 @@
 error_reporting(0);
 $ref_id = "190216190083009097";
 
-/**
-$handle = fopen("no.txt", "r");
-*/
 
-echo 'Nomer hpne : '; 
-$handle = trim(fgets(STDIN)); 
+$handle = fopen("no.txt", "r");
+
+
 
 if (!is_resource($handle)) {
 	print "Nomor kliru!\n";
